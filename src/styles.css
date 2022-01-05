@@ -28,6 +28,19 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  margin: 0;
+  font-weight: 3;
+}
+
+h3 {
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 70px;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -49,7 +62,16 @@ footer {
   left: 0;
   position: fixed;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+}
+
+.options a {
+  margin: 50px 10px;
 }
 
 footer ul {
@@ -88,4 +110,30 @@ a {
 
 .social svg {
   fill: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: rgb(51, 255, 255);
+}
+
+.work-details {
+  width: 50%;
+}
+
+.work-details td {
+  padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .work-details {
+    width: 80%;
+  }
+
+  .work-details td {
+    padding: 5px;
+  }
+}
+
+.work-pages-footer {
+  position: relative;
 }
