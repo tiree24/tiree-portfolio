@@ -79,3 +79,7 @@ a {
   bottom: 0;
   left: 0;
 }
+
+.social svg {
+  fill: rgb(255, 255, 255);
+}
