@@ -176,4 +176,48 @@ a:hover {
   font-family: "Unna", serif;
   font-size: 20px;
   padding: 5px;
+  padding: 20px 0;
+}
+
+.form-row .form-control:focus,
+.form-submit textarea:focus {
+  outline: 0;
+  background-color: rgb(51, 255, 255);
+}
+
+.form-submit textarea {
+  font-family: "Unna", serif;
+  width: 100%;
+  border: none;
+  padding: 0;
+  resize: none;
+  margin-top: 5px;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+form button {
+  width: 100%;
+  background-color: rgb(51, 255, 255);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-family: "Unna", serif;
+  padding: 20px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-submit {
+    width: 80%;
+  }
+
+  .form-submit .form-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-row .form-control {
+    width: 100%;
+    margin-top: 5px;
+  }
 }
