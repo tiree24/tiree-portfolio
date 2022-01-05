@@ -28,6 +28,12 @@ h1 {
   margin: 0;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hero-section {
   margin-top: 17vh;
   text-align: center;
