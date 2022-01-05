@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-  margin: 0;
+  margin: 3px;
   font-weight: 3;
   text-align: center;
 }
@@ -155,4 +155,25 @@ a:hover {
   height: 200px;
   border-radius: 50%;
   margin: 40px 10px 10px 10px;
+}
+
+.form-submit {
+  width: 50%;
+}
+
+.form-submit form {
+  width: 100%;
+}
+
+.form-submit .form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-row .form-control {
+  width: 50%;
+  border: none;
+  font-family: "Unna", serif;
+  font-size: 20px;
+  padding: 5px;
 }

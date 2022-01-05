@@ -5,5 +5,36 @@
     <title>Contact Me</title>
     <link rel="stylesheet" href="../styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <ul>
+        <a href="../../index.html"><li>Home</li></a>
+        <a href="../pages/contact.html"><li>Contact</li></a>
+      </ul>
+    </header>
+
+    <section>
+      <div class="form-submit">
+        <h2 class="subtitle">Submit</h2>
+        <form target="_blank" action="https://formsubmit.co/el/vabiri" method="POST">
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://yourdomain.co/src/pages/thankyou.html" />
+          <div class="form-row">
+            <input type="name" name="name" class="form-control" placeholder="Full Name" required />
+            <input type="email" name="email" class="form-control" placeholder="Email" required />
+          </div>
+          <textarea placeholder="Your Message" name="message" rows="10" required></textarea>
+          <button type="subit">Submit Form</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <a href="https://twitter.com"><li>Twitter</li></a>
+        <a href="https://github.com/tiree24"><li>Github</li></a>
+        <a href="https://www.linkedin.com/in/tiree-jackson-473365198/"><li>LinkedIn</li></a>
+      </ul>
+    </footer>
+  </body>
 </html>
